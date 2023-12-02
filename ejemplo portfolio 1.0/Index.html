@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--TITULO Y DESCRIPCIÓN-->
+	<title>Portfolio Samuel</title>
+	<meta name="description" content="Página web de web desing">
+<!--LOGO-->
+	<link rel="shortcut icon" href="IMG/logo.png">
+<!--TIPOGRAFÍA-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital@0;1&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital@0;1&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<!--PRELOAD DE LO MAS IMPORTANTE (NORMALICE Y STYLE)-->
+	<link rel="preload" href="css/normalize.css" as="style">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="preload" href="css/style.css" as="style">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+<!--PREFETCH (LO QUE ESPERAMOS QUE CARGE LUEGO)-->
+<!--JS-->
+	<script src="JS/js.js"></script>
+	<script src="JS/script.js"></script>
+</head>
+<body>
+
+<main  class="menu">
+	<header class="header">
+		<a href="Index.html" class="logo">
+			<img class="logo__img" src="IMG/logo.png" alt="Logotipo"> 
+			<h1 class="logo__nombre">Samuelsgr</h1>
+		</a>
+			<nav class="enlaces">
+			 	<a class="enlaces__texto" href="#sobre-mi">Sobre Mi</a>
+			 	<a class="enlaces__texto" href="#mis-proyectos">Proyectos</a>
+			 	<a class="enlaces__texto" href="#contacto">Contacto</a>
+			</nav>
+
+		<footer class="footer">
+			<p class="footer__texto">Front End ©2023 Samuelsgr</p>
+		</footer>
+	</header>
+
+	<article id="sobre-mi">
+		<h2>¡Hola! Mi nombre es Samuel Gutiérrez (Samuelsgrart)</h2>
+
+		<hr>
+
+		<p>Actualmente estudio front-end y poco de back-end pero con intenciones de ir mas alla en el desarrollo.</p>
+		
+		<p>Estudié el grado medio de 'Técnico en Vídeo Disc-Jockey y Sonido' y luego el grado superior de 'Técnico Superior en Animaciones 3D, Juegos y Entornos Interactivos'</p>
+		<p>Tambien me apasiona la cocina, los videojuegos y la musica.</p>
+
+		<a href="curriculum.pdf" class="transicion" target="_blank"><p>ᐯ currículum</p></a>
+
+<div class="webs">
+
+	<h1 class="titulo" id="mis-proyectos">Mis Proyectos</h1>
+
+	<div class="grid">
+		<div class="producto">
+			<a href="https://samuelsgrart-ejemplo-pagina-1.netlify.app/" target="_blank">
+				<img class="producto__img" src="img/web1.png" alt="enlace web">
+				<div class="producto__info">
+					<p class="producto__nombre">Diseño y Desarrollo Web Freelancer</p>
+					<hr class="separacion">
+					<p class="producto__texto">Diseño Web</p>
+				</div>
+			</a>
+		</div> <!-- FIN DE PRODUCTO -->
+
+		<div class="producto">
+			<a href="https://samuelsgrart-ejemplo-pagina-2.netlify.app/index.html"  target="_blank">
+				<img class="producto__img" src="img/web2.png" alt="enlace web">
+				<div class="producto__info">
+					<p class="producto__nombre">Frontend Store</p>
+					<hr class="separacion">
+					<p class="producto__texto">Diseño Web de una tienda</p>
+				</div>
+			</a>
+		</div> <!-- FIN DE PRODUCTO -->
+
+		<div class="producto">
+			<a href="https://samuelsgrart-ejemplo-blog-de-cafe.netlify.app/index.html" target="_blank">
+				<img class="producto__img" src="img/web3.png" alt="enlace web">
+				<div class="producto__info">
+					<p class="producto__nombre">Blog de Café</p>
+					<hr class="separacion">
+					<p class="producto__texto">Diseño Web de un blog de café</p>
+				</div>
+			</a>
+		</div> <!-- FIN DE PRODUCTO -->
+		
+	</div>
+
+</div>
+	<section id="contacto">
+		<h2 class="titulo">CONTACTO</h2>
+		<div class="contactos">
+			<div class="gmail">
+				<p class="bold">GMAIL:</p>
+				<p>samuelsgrart@gmail.com</p>
+
+				<p>/</p>
+
+				<p class="bold">REDES SOCIALES:</p>
+				<p class="linkedin"><a href="https://www.linkedin.com/in/samuelsgrart/">ᐯ LINKEDIN</a></p>
+			</div><!--FIN-->
+		</div>
+	</section>
+</article>
+		<footer class="footermovil">
+			<p class="footermovil__texto">Front End ©2023 Samuelsgr</p>
+		</footer>
+</main>	
+</body>
+</html>
